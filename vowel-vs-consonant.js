@@ -1,5 +1,5 @@
 //Word that needs to be analyzed
-const word = "textbook";
+const word = "textbook"
 
 //Array of vowels 
 const vowels = ["a", "e", "i", "o", "u"];
@@ -10,7 +10,7 @@ for(let i = 0; i < word.length; i++) {
   let letter = word[i];
 
 //A string of lowercase letters should be analyze to see how many consonants and how many vowels it has.
-  console.log("inclues()", vowels.includes(letter))
+  //console.log("inclues()", vowels.includes(letter))
   if(vowels.includes(letter)) {
     vowelCount++;
   } else {
